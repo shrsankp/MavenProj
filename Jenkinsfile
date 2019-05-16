@@ -5,6 +5,6 @@ node {
     }
     stage('Compile & Package')
     {
-      bat 'mvn clean install'
+      bat 'mvn clean compile'
     }
 }
